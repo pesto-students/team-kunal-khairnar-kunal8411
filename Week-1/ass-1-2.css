@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Lato", sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+.top-box {
+    width: 95vw;
+    height: 300px;
+    background-color: #454545;
+    border: 1px solid #000;
+    position: absolute;
+    left: 5%;
+  }
+
+  .top-image {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .top-image img {
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+  }
+
+  h1 {
+    color: white;
+    font-size: 34px;
+    position: relative;
+    margin-left: 250px;
+    bottom: 150px;
+  }
+
+  p {
+    color: white;
+    font-size: 14px;
+    position: relative;
+    margin-left: 250px;
+    bottom: 140px;
+    margin-bottom: 10px;
+  }
+
+  .top-box-icons {
+    left: 300px;
+    top: 200px;
+    color: white;
+    position: absolute;
+  }
+
+  .top-box-icons i {
+    padding: 20px;
+  }
+
+  .top-box-icons-text i {
+    display: inline;
+    position: relative;
+  }
+
+.side-bar {
+  width: 5vw;
+  height: 90vh;
+  position: absolute;
+  background-color: #f0f0f0;
+}
+
+.side-bar i {
+  display: block;
+  padding: 15px;
+  margin: 30px 0px;
+}
+
+.bottom-bar {
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  background-color: #43689b;
+  bottom: 0;
+  margin-bottom: 0px;
+}
+
+.footer-image {
+  width: 80px;
+  height: 80px;
+}
+
+.icons-box {
+  display: inline;
+  height: 5vh;
+  width: 10vw;
+  position: relative;
+  bottom: 0px;
+
+}
+
+.footer-image img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin: 10px;
+}
+
+.bottom-bar i {
+  display: inline;
+  position: relative;
+  padding: 25px;
+  margin: 0px 30px;
+  color: white;
+  left: 500px;
+  bottom: 50px;
+}
+
+.container {
+  position: relative;
+  width: 95vw;
+  height: 90vh;
+}
+
+.table {
+  position: absolute;
+  top: 300px; /* the height of top-box */
+  bottom: 15vh; /* the height of bottom-bar */
+  width: 95vw;
+  margin-left: 5vw;
+  overflow-y: auto; /* add scrollbar if table is taller than available space */
+}
+
+th, td {
+  text-align: left;
+  padding: 0.5em;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
