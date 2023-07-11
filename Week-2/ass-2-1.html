@@ -1,0 +1,141 @@
+<!--Week 2-->
+<!--Excercise 2.1-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="ass-2-1.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pesto Week-2 Assingment</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Lorem Ipsum</h1>
+    <p style="font-size: 16px; text-align: center;"><i>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
+        consectetur, adipisci velit..."</i></p>
+    <p style="font-size: 14px; text-align: center;"><i>"There is no one who loves pain itself, who seeks after it and
+        wants to have it, simply because it is pain..."</i></p>
+    <hr>
+    <div class="top-box">
+      <div class="left-box">
+        <p class="p-fs"><b><i>What is Lorem Ipsum?</i></b></p>
+        <p class="p-margin">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+          Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+          of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+          leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+          release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
+          like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+        <img class="img" src="https://www.multimediaxp.com/images/article_190508124638.1557333998.jpg">
+
+      </div>
+      <div class="right-box">
+        <p class="p-fs"><b><i>Why do we use it?</i></b></p>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking
+          at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
+          opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+          packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum'
+          will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by
+          accident, sometimes on purpose (injected humour and the like).</p>
+
+        <p class="p-fs"><b><i>Where can I get some?</i></b></p>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
+          some form, by injected humour, or randomised words which don't look even slightly believable. If you are going
+          to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of
+          text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making
+          this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a
+          handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem
+          Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="form">
+      <h1>Form:</h1>
+      <form class="styled-input">
+        <fieldset>
+          <legend>Personal details</legend>
+
+          <p>Title:</p>
+          <input type="radio" name="r1" value="title" />
+          Mr
+
+          <input type="radio" name="r1" value="title" />
+          Mrs
+
+          <input type="radio" name="r1" value="title" />
+          Miss
+
+          <div style="display: flex; flex-direction: row;">
+            <div style="flex: 1;">
+              <p>First Name:</p>
+              <input type="text" placeholder="Enter first name" />
+            </div>
+            <div style="flex: 1;">
+              <p>Last Name:</p>
+              <input type="text" placeholder="Enter last name" />
+            </div>
+          </div>
+
+          <div style="display: flex; flex-direction: row;">
+            <div style="flex: 1;">
+              <p>Country code:</p>
+              <select>
+                <option value="+1">+1</option>
+                <option value="+44">+44</option>
+                <option value="+91">+91</option>
+                <!-- Add more options as needed -->
+              </select>
+            </div>
+            <div style="flex: 1;">
+              <p>Phone Number:</p>
+              <input type="number" placeholder="Enter mobile number" />
+            </div>
+          </div>
+
+          <div style="display: flex; flex-direction: row;">
+            <div style="flex: 1;">
+              <p>Country:</p>
+              <select>
+                <option>USA</option>
+                <option>UK</option>
+                <option>India</option>
+                <!-- Add more options as needed -->
+              </select>
+            </div>
+            <div style="flex: 1;">
+              <p>E-Mail:</p>
+              <input type="email" placeholder="abc@xyz.com" />
+            </div>
+          </div>
+
+          <div style="display: flex; flex-direction: row;">
+            <div style="flex: 1;">
+              <p>Password:</p>
+              <input type="password" id="password" name="password" placeholder="Atleast 8 characters" />
+            </div>
+            <div style="flex: 1;">
+              <p>Confirm Password:</p>
+              <input type="password" id="confirm-password" name="confirm-password" placeholder="Atleast 8 characters" />
+            </div>
+          </div>
+
+          <p id="password-match"></p>
+
+          <p> </p>
+
+          <button class="submit-btn" type="submit" value="submit">SUBMIT</button>
+        </fieldset>
+      </form>
+
+      <script src="week-2.js"></script>
+    </div>
+  </div>
+</body>
+
+</html>

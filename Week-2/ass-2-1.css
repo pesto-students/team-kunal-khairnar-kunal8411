@@ -1,0 +1,92 @@
+body {
+    margin: 10px;
+    background-color: lightgray;
+}
+
+.top-box {
+  display: flex;
+}
+
+.left-box {
+    position: relative;
+    margin-left: 0px;
+    flex: 1;
+}
+
+.right-box {
+    position: relative;
+    flex: 1;
+    margin-right: 0px;
+}
+
+.form {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.styled-input {
+    background-color: #F1F1F1; /* Light gray background */
+    border: none; /* Remove borders */
+    padding: 12px; /* Some padding */
+    display: block; /* Make it a block element */
+    width: 100%; /* Make it full width */
+    font-size: 16px; /* Increase font size */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0px 5px 0px #C4C4C4; /* Add a 3D shadow */
+    margin-bottom: 20px; /* Add some spacing */
+  }
+
+  /* Focus state */
+  .styled-input:focus {
+    outline: none;
+    box-shadow: 0px 5px 0px #4CAF50; /* Change shadow color */
+  }
+
+  /* Error state */
+  .styled-input:invalid {
+    border: 2px solid #FF4136; /* Change border color */
+  }
+
+  /* Placeholder text color */
+  ::placeholder {
+    color: #999;
+  }
+
+.submit-btn {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 24px; /* Some padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make it a block element */
+    font-size: 16px; /* Increase font size */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0px 5px 0px #2E7031; /* Add a 3D shadow */
+}
+
+h1 {
+  text-align: center;
+  font-size: 42px;
+}
+
+p {
+  text-align: justify;
+}
+
+.p-fs {
+  font-size: 24px;
+}
+
+.p-margin {
+  margin-right: 15px;
+}
+
+hr {
+  border-color: black;
+}
+
+.img {
+  width: 45vw;
+  height: 200px;
+}
